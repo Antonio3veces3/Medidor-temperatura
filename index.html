@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="cliente.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Temperatura</title>
+</head>
+<body>
+  <!--Aqui se envian los mensaje de la consola como "prender" -->
+  <div class="console">
+    <div id="mensajes" class="consoleInfo"></div>
+  </div>
+
+  <div>
+    <div class="shadow">
+      <form action="" id="msgForm">
+        <input class="data fields" type="text" name="msg" placeholder="prender o apagar" />
+        <button>Enviar</button>
+      </form>
+    </div>
+
+      
+
+    <!--Aqui inicia el scrip de la grafica-->
+    <div class="canvaDiv">
+      <div class="customCanva">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+
+    
+        <!--Aqui termina el scrip de la grafica-->
+
+  </div>
+  <!--<script src="/config.js"></script>-->
+</body>
+</html>

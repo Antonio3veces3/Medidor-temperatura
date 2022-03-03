@@ -1,0 +1,81 @@
+html {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+}
+.canvaDiv {
+  margin-left: 100px;
+  display: flex;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  margin-top: 65px;
+  border-radius: 39px;
+  background: #f0f0f0;
+  box-shadow: inset 11px 11px 22px #b4b4b4,
+              inset -11px -11px 22px #ffffff;
+}
+.customCanva {
+  display: flex;
+  margin-top: 50px;
+  width: 400px;
+  height: 250px;
+  right: 10%;
+}
+.shadow { 
+  margin-top: 10px;
+  margin-left: 100px;
+  width: 500px;
+  height: 50px;
+}
+.fields {
+  height: 32px;
+  margin: 30px 20px -3px 85px;
+}
+.data {
+  border-width: 0px;
+  border-radius: 36px;
+  text-align: center;
+  background: #f0f0f0;
+  box-shadow: inset 5px 5px 9px #c5c5c5,
+              inset -5px -5px 9px #ffffff;
+}
+button {
+  margin: -10px 20px -3px 40px;
+  border-width: 0px;
+  border-radius: 71px;
+  background: #f0f0f0;
+  box-shadow:  5px 5px 10px #c0c0c0,
+             -5px -5px 10px #ffffff;
+}
+
+button:hover{
+  border-radius: 71px;
+  background: #f0f0f0;
+  box-shadow: inset 0px 0px 0px #c0c0c0,
+            inset 0px 0px 0px #ffffff;
+}
+
+button:focus{
+  border-radius: 71px;
+  background: #f0f0f0;
+  box-shadow: inset 5px 5px 10px #c0c0c0,
+            inset -5px -5px 10px #ffffff;
+}
+
+.console {
+  justify-content: center;
+  display: flex;
+  height: 400px;
+  width: 150px;
+  margin: 40px 0px -3px -150px;
+  position: absolute;
+  border-radius: 39px;
+  background: #f0f0f0;
+  box-shadow: inset 11px 11px 22px #b4b4b4,
+              inset -11px -11px 22px #ffffff;
+}
+
+.consoleInfo {
+  margin-top: 30px;
+}
