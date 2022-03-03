@@ -57,7 +57,7 @@ socket.on('temperature', data =>{
       label: 'Temperatura',
       backgroundColor: 'rgb(255, 99, 132)',
       borderColor: 'rgb(255, 99, 132)',
-      data: [10,20,15,30,35,40,20],
+      data: newArray,
     }]
   };
   

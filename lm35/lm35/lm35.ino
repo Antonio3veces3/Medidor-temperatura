@@ -20,5 +20,5 @@ void loop() {
   //Imprimimos por monitor serie la temperatura en celcius 
   Serial.println(temperatura);
 
-  delay(1000);
+  delay(500);
 }
